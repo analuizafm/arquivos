@@ -3,42 +3,6 @@
 @import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
 
 
-/*h1, h2, h3, h4, h5, h6 {
-      font-family: "Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-
-p {
-    margin: 24px 0;
-    line-height: 1.7;
-}
-
-li{
-    line-height: 1.7;
-}
-
-h2 {
-    margin: 48px 0 24px 0;
-}
-
-h3 {
-    margin: 24px 0;
-}
-
-img {
-    width: 100%;
-}
-
-.casa_tachado {
-    background: linear-gradient(to top, #FFD590 50%, transparent 50%);
-    color: #404040;
-}
-
-.linhatempo p {
-    margin: 12px 0 !important; */
-}
-
-/* padroes novos */
-
 .casa_secao {
     margin: 32px 0;
     box-shadow: 2px 3px 20px 1px #e8e8e8;
