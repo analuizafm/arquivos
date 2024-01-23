@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+
+/*h1, h2, h3, h4, h5, h6 {
+      font-family: "Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+p {
+    margin: 24px 0;
+    line-height: 1.7;
+}
+
+li{
+    line-height: 1.7;
+}
+
+h2 {
+    margin: 48px 0 24px 0;
+}
+
+h3 {
+    margin: 24px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.casa_tachado {
+    background: linear-gradient(to top, #FFD590 50%, transparent 50%);
+    color: #404040;
+}
+
+.linhatempo p {
+    margin: 12px 0 !important; */
+}
+
+/* padroes novos */
+
+.casa_secao {
+    margin: 32px 0;
+    box-shadow: 2px 3px 20px 1px #e8e8e8;
+    background-color: #ffffff;
+    padding: 20px 24px;
+}
+
+.casa_secao p{
+    margin: 12px 0;
+}
+
+.casa_secao p:last-child{
+    margin-bottom: 0;
+}
+
+.casa_secao p:first-child{
+    margin-top: 0;
+}
+
+.casa_citacao {
+    margin: 32px 0;
+    padding: 0 0 0 24px;
+    border-left: solid 5px #662482;
+}
+
+.casa_citacao p{
+    margin: 12px 0;
+}
+
+.casa_citacao p:last-child{
+    margin-bottom: 0;
+}
+
+.casa_citacao_fonte {
+    color: #662482;
+    font-style: italic;
+    text-align: right;
+}
+
+.casa_box_destaque {
+    margin: 32px 0;
+    background-color: #ed6a53;
+    padding: 20px 24px;
+    border-left: solid 10px #DF523A;
+    color: #ffffff;
+}
+
+.casa_box_destaque p{
+    margin: 6px 0;
+}
+
+.casa_box_destaque p:last-child{
+    margin-bottom: 0;
+}
+
+.casa_box_destaque p:first-child{
+    margin-top: 0;
+}
+
+
+.casa_destaque_numeral {
+   border: 1px solid #404040;
+   padding: 20px 24px;
+   margin: 32px 0;
+}
+
+.casa_destaque_numeral ol li {
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;
+}
+
+.casa_destaque_numeral ol li:before {
+    color: #ED6A53;
+    content: counter(list) ".";
+    left: -32px;
+    position: absolute;
+    text-align: right;
+    width: 26px;
+    font-weight: 600;
+}
