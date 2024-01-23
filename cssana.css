@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+
+h1, h2, h3, h4, h5, h6 {
+      font-family: "Lato Extended","Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+p {
+    margin: 24px 0;
+    line-height: 1.7;
+}
+
+li{
+    line-height: 1.7;
+}
+
+h2 {
+    margin: 48px 0 24px 0;
+}
+
+h3 {
+    margin: 24px 0;
+}
+
+img {
+    width: 100%;
+}
+
+.tachado {
+    background: linear-gradient(to top, #FFD590 50%, transparent 50%);
+    color: #404040;
+}
+
+.linhatempo p {
+    margin: 12px 0 !important; 
+}
+
+/* padroes novos */
+
+.secao {
+    margin: 32px 0;
+    box-shadow: 2px 3px 20px 1px #e8e8e8;
+    background-color: #ffffff;
+    padding: 20px 24px;
+}
+
+.secao p{
+    margin: 12px 0;
+}
+
+.secao p:last-child{
+    margin-bottom: 0;
+}
+
+.secao p:first-child{
+    margin-top: 0;
+}
+
+.citacao {
+    margin: 32px 0;
+    padding: 0 0 0 24px;
+    border-left: solid 5px #662482;
+}
+
+.citacao p{
+    margin: 12px 0;
+}
+
+.citacao p:last-child{
+    margin-bottom: 0;
+}
+
+.citacao_fonte {
+    color: #662482;
+    font-style: italic;
+    text-align: right;
+}
+
+.box_destaque {
+    margin: 32px 0;
+    background-color: #ed6a53;
+    padding: 20px 24px;
+    border-left: solid 10px #DF523A;
+    color: #ffffff;
+}
+
+.box_destaque p{
+    margin: 6px 0;
+}
+
+.box_destaque p:last-child{
+    margin-bottom: 0;
+}
+
+.box_destaque p:first-child{
+    margin-top: 0;
+}
+
+ul, ol {
+    padding: 0;
+    margin: 0 0 0px 25px;
+}
+
+.destaque_numeral {
+   border: 1px solid #404040;
+   padding: 20px 24px;
+   margin: 32px 0;
+}
+
+.destaque_numeral ol li {
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;
+}
+
+.destaque_numeral ol li:before {
+    color: #ED6A53;
+    content: counter(list) ".";
+    left: -32px;
+    position: absolute;
+    text-align: right;
+    width: 26px;
+    font-weight: 600;
+}
+
+/* pagina do programa de curso */
+
+.programa_curso p {
+    margin: 12px 0 !important; 
+}
+
+.programa_curso h3 {
+    margin: 32px 0 12px !important; 
+}
+
+/* sanfona */
+
+.bncc_sanfona .bncc_accordion {
+    
+    border-width: 1px 0 0 0;
+    border-top: 1px solid #d7d9e2;
+
+    cursor: pointer;
+    padding: 18px;
+   
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+}
+
+
+.bncc_sanfona .bncc_accordion:after {
+    /*content: "\276F";
+     transform: rotate(90deg);*/
+    content: '\002B';
+    float: right;
+    margin-left: 5px;
+}
+
+.bncc_sanfona .active:after {
+    /*content: "\276F";
+    transform: rotate(-90deg);*/
+    content: "\2212";
+}
+
+.bncc_sanfona .panel {
+    padding: 0 20px;
+    
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border-width: 0 0 1px 0;
+}
+
+
+.bncc_sanfona .panel p {
+    padding: 10px 0 15px 0;
+    margin: 0;
+}
+
+
+.bncc_accordion:hover {
+    background-color: #ffe09e;
+
+}
+
+.alfabetizacao:hover {
+    background-color: #f3e3c4;
+
+}
+
+
+/* calendario */
+
+.calendario_cursos .year {
+  
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.calendario_cursos .month {
+
+  
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin: 10px;
+}
+
+.calendario_cursos .nome {
+    text-align: center;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.calendario_cursos .week {
+    display: flex;
+    border: 1px solid #fff;
+}
+
+
+.calendario_cursos .week-day {
+    height: 28px;
+    width: 32px;
+    font-size: 12px;
+    background-color: #C7CDD1;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendario_cursos .day:not(:last-child) {
+    border-right: 2px solid rgba(255,255,255, .0);
+}
+
+.calendario_cursos .day {
+   
+    height: 28px;
+    width: 32px;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calendario_cursos .week-day:not(:last-child) {
+    border-right: 2px solid #fff;
+}
+
+.calendario_cursos .sd {
+    color: #9d9d9c;
+}
+
+.leg_calendario .legenda {
+   
+    font-size: 13px;
+    display: inline-block;
+    margin: 0;
+    line-height: 12px;
+}
+
+.leg_calendario {
+    margin: 10px 0 0 0;
+
+}
+
+/* bncc infantil */
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.infantil_texto {
+  
+    margin: 0 0 24px 0;
+}
+
+.infantil_texto h4 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* AdaptaÄ‡Ãµes mobile */
+@media only screen and (min-width: 0px) and (max-width: 499px) {
+   .infantil_texto {
+  margin-top: 30px;
+} 
+.grid-row {
+   
+    margin-right: 0px;
+    margin-left: 0px;
+    
+    }
+    
+    audio {
+       max-width:250px; 
+    }
+    
+}
+
+.quote-bncc p {
+    margin: 16px 0 !important;
+    color: #999;
+}
+
+.bncc_cards {
+    padding: 10px; 
+    background-color: #00b4c8; 
+    color: #fff;
+     border-radius: 20px;
+}
+
+
+.alinhamento {
+    align-items: start;
+}
+
+
+
+/* linha citacao */
+
+.bncc_infantil {
+    margin: 48px 0;
+}
+
+.bncc_infantil .quote-bncc {
+    border-top: 3px solid #FFB000;
+    display: flex;
+    position: relative;
+    border-bottom: 3px solid #FFB000;
+}
+
+.bncc_infantil .quote-bncc:before {
+    border-color:  transparent #fff transparent;
+}
+.bncc_infantil .quote-bncc:before {
+    border-width: 16px  0 0 29px;
+    margin: 5px 0 0 2px;
+    left: 33px;
+    z-index: 1;
+}
+
+.bncc_infantil .quote-bncc:after {
+    border-color:  transparent #FFB000 transparent;
+}
+
+.bncc_infantil .quote-bncc:after {
+    border-width: 19px  0 0 35px;
+    left: 32px;
+}
+.bncc_infantil .quote-bncc:after, .bncc_infantil .quote-bncc:before {
+    border-style: solid;
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -20px;
+}
+
+
+/* Me deixe pensar */
+
+.caixa_destaque {
+    box-shadow: 10px 10px #fcead3;
+}
+
+
+/* AlfabetizaÃ§Ã£o */
+
+.flag {
+  width: 180px;
+  height: 30px;
+  background: #f2aa52;
+  position: relative;
+}
+
+ .flag::after {
+    
+  }
+
+  .flag::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-right: 5px solid #ffffff;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+ }
+
+.flag_texto{
+  text-align: center;
+  padding-top:4px;
+}
+
+.alfa{
+    background-image: url(https://souionica.instructure.com/courses/2153/files/44687/preview);
+    background-size: auto auto;
+    background-repeat: repeat;
+}
+
+.alfa2{
+    background-image: url(https://souionica.instructure.com/courses/2105/files/52015/preview);
+    background-size: auto auto;
+    background-repeat: repeat;
+}
+
+.alfa3{
+    background-image: url(https://souionica.instructure.com/courses/7618/files/87390/preview);
+    background-size: auto auto;
+    background-repeat: repeat;
+}
+
+/* campanha da fraternidade */
+
+
+
+.fundo_campanha{
+    background-image: url(https://souionica.instructure.com/courses/3213/files/76968/preview);
+    background-size: auto auto;
+    background-repeat: no-repeat;
+   
+}
+
+.fundo_campanha li {
+    margin-top: 6px;
+}
