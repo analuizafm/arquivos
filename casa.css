@@ -106,7 +106,7 @@ ul, ol {
 /* timeline com fotos */
 
 
-@media (min-width: 1000px) {
+
   #casanc-timeline .casanc-demo-card:nth-child(even) .casanc-head::after, #casanc-timeline .casanc-demo-card:nth-child(odd) .casanc-head::after {
     position: absolute;
     content: "";
@@ -124,7 +124,6 @@ ul, ol {
     background-color: #bdbdbd;
     border-radius: 9px;
     
-  }
 }
 /* Some Cool Stuff */
 .casanc-demo-card:nth-child(1) {
