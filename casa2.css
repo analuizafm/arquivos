@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+
+/* padroes gerais */
+
+.casa-tachado {
+    background: linear-gradient(to top, #FFD590 50%, transparent 50%);
+    color: #404040;
+}
+
+.casa-secao {
+    margin: 32px 0;
+    box-shadow: 2px 3px 20px 1px #e8e8e8;
+    background-color: #ffffff;
+    padding: 20px 24px;
+}
+
+.casa-secao p {
+    margin: 12px 0;
+}
+
+.casa-secao p:last-child {
+    margin-bottom: 0;
+}
+
+.casa-secao p:first-child {
+    margin-top: 0;
+}
+
+.casa-secao-titulosofa {
+    color: #ed6a53;
+    font-weight: 600;
+}
+
+.casa-secao-icone {
+    font-size: 20px;
+    display: inline-flex;
+    vertical-align: middle;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+
+
+.casa-citacao {
+    margin: 32px 0;
+    padding: 0 0 0 24px;
+    border-left: solid 5px #662482;
+}
+
+.casa-citacao p {
+    margin: 12px 0;
+}
+
+.casa-citacao p:last-child {
+    margin-bottom: 0;
+}
+
+.casa-citacao-fonte {
+    color: #662482;
+    font-style: italic;
+    text-align: right;
+}
+
+.casa-box-destaque {
+    margin: 32px 0;
+    background-color: #ed6a53;
+    padding: 20px 24px;
+    border-left: solid 10px #DF523A;
+    color: #ffffff;
+}
+
+.casa-box-destaque p {
+    margin: 6px 0;
+}
+
+.casa-box-destaque p:last-child {
+    margin-bottom: 0;
+}
+
+.casa-box-destaque p:first-child {
+    margin-top: 0;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0 0 0px 25px;
+}
+
+.casa-destaque-numeral {
+    border: 1px solid #404040;
+    padding: 20px 24px;
+    margin: 32px 0;
+}
+
+.casa-destaque-numeral ol li {
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;
+}
+
+.casa-destaque-numeral ol li:before {
+    color: #ED6A53;
+    content: counter(list) ".";
+    left: -32px;
+    position: absolute;
+    text-align: right;
+    width: 26px;
+    font-weight: 600;
+}
+
+
+/* padroes gerais */
+
+- - - - - - - - - - - - - - - - - - - - -
+/* curso Acolhida Marista Brasil */
+
+/* timeline com fotos */
+
+
+@media (min-width: 1000px) {
+
+    #casanc-timeline .casanc-demo-card:nth-child(even) .casanc-head::after,
+    #casanc-timeline .casanc-demo-card:nth-child(odd) .casanc-head::after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        border-top: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+    }
+
+    #casanc-timeline .casanc-demo-card:nth-child(even) .casanc-head::before,
+    #casanc-timeline .casanc-demo-card:nth-child(odd) .casanc-head::before {
+        position: absolute;
+        content: "";
+        width: 9px;
+        height: 9px;
+        background-color: #bdbdbd;
+        border-radius: 9px;
+
+    }
+
+    #casanc-timeline .casanc-demo-card .casanc-body {
+        max-width: 350px;
+    }
+}
+
+
+@media (max-width: 1000px) {
+
+    #casanc-timeline .casanc-demo-card .casanc-body {
+        max-width: 1200px;
+    }
+}
+
+/* Some Cool Stuff */
+.casanc-demo-card:nth-child(1) {
+    order: 1;
+}
+
+.casanc-demo-card:nth-child(2) {
+    order: 4;
+}
+
+.casanc-demo-card:nth-child(3) {
+    order: 2;
+}
+
+.casanc-demo-card:nth-child(4) {
+    order: 5;
+}
+
+.casanc-demo-card:nth-child(5) {
+    order: 3;
+}
+
+.casanc-demo-card:nth-child(6) {
+    order: 6;
+}
+
+/* Border Box */
+* {
+    box-sizing: border-box;
+}
+
+
+#casanc-timeline {
+    padding: 32px 0;
+    /*
+  border-top: 1px solid rgba(191, 191, 191, 0.4);
+  border-bottom: 1px solid rgba(191, 191, 191, 0.4);
+    */
+}
+
+#casanc-timeline h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+#casanc-timeline p.leader {
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 45px;
+}
+
+#casanc-timeline .casanc-demo-card-wrapper {
+    position: relative;
+    margin: auto;
+}
+
+@media (min-width: 1000px) {
+    #casanc-timeline .casanc-demo-card-wrapper {
+        display: flex;
+        flex-flow: column wrap;
+        max-width: 1170px;
+        height: 1650px;
+        margin: 0 auto;
+    }
+}
+
+#casanc-timeline .casanc-demo-card-wrapper::after {
+    z-index: 1;
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 2px solid rgba(191, 191, 191, 0.4);
+}
+
+@media (min-width: 1000px) {
+    #casanc-timeline .casanc-demo-card-wrapper::after {
+        border-left: 2px solid #bdbdbd;
+    }
+}
+
+#casanc-timeline .casanc-demo-card {
+    position: relative;
+    display: block;
+    margin: 10px auto 40px;
+    max-width: 94%;
+    z-index: 2;
+}
+
+@media (min-width: 480px) {
+    #casanc-timeline .casanc-demo-card {
+        max-width: 70%;
+        box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
+    }
+}
+
+@media (min-width: 720px) {
+    #casanc-timeline .casanc-demo-card {
+        max-width: 60%;
+    }
+}
+
+@media (min-width: 1000px) {
+    #casanc-timeline .casanc-demo-card {
+        max-width: 450px;
+        /*
+    margin: 90px;
+    margin-top: 45px;
+    margin-bottom: 45px;*/
+    }
+
+    #casanc-timeline .casanc-demo-card:nth-child(odd) {
+        margin-right: 45px;
+    }
+
+    #casanc-timeline .casanc-demo-card:nth-child(odd) .casanc-head::after {
+        border-left-width: 15px;
+        border-left-style: solid;
+        left: 100%;
+    }
+
+    #casanc-timeline .casanc-demo-card:nth-child(odd) .casanc-head::before {
+        left: 491.5px;
+    }
+
+    #casanc-timeline .casanc-demo-card:nth-child(even) {
+        margin-left: 45px;
+    }
+
+    #casanc-timeline .casanc-demo-card:nth-child(even) .casanc-head::after {
+        border-right-width: 15px;
+        border-right-style: solid;
+        right: 100%;
+    }
+
+    #casanc-timeline .casanc-demo-card:nth-child(even) .casanc-head::before {
+        right: 489.5px;
+    }
+
+    #casanc-timeline .casanc-demo-card:nth-child(2) {
+        margin-top: 180px;
+    }
+}
+
+#casanc-timeline .casanc-demo-card .casanc-head {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+}
+
+#casanc-timeline .casanc-demo-card .casanc-head .casanc-number-box {
+    display: inline;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: 600;
+
+}
+
+#casanc-timeline .casanc-demo-card .casanc-head h2 {
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: inherit;
+    letter-spacing: 2px;
+    margin: 0;
+    padding-bottom: 6px;
+    line-height: 1rem;
+}
+
+@media (min-width: 480px) {
+    #casanc-timeline .casanc-demo-card .casanc-head h2 {
+
+        line-height: 1.2rem;
+    }
+}
+
+#casanc-timeline .casanc-demo-card .casanc-head h2 span {
+    display: block;
+    font-size: 0.6rem;
+    margin: 0;
+}
+
+@media (min-width: 480px) {
+    #casanc-timeline .casanc-demo-card .casanc-head h2 span {
+        font-size: 0.8rem;
+    }
+}
+
+#casanc-timeline .casanc-demo-card .casanc-body {
+    background: #fff;
+    border: 1px solid rgba(191, 191, 191, 0.4);
+    border-top: 0;
+    padding: 15px;
+}
+
+@media (min-width: 1000px) {
+    #casanc-timeline .casanc-demo-card .casanc-body {}
+}
+
+#casanc-timeline .casanc-demo-card .casanc-body p {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 15px;
+}
+
+#casanc-timeline .casanc-demo-card .casanc-body img {
+    display: block;
+    width: 100%;
+}
+
+#casanc-timeline .casanc-demo-card--step1 {
+    background-color: #662482;
+}
+
+#casanc-timeline .casanc-demo-card--step1 .casanc-head::after {
+    border-color: #662482;
+}
+
+#casanc-timeline .casanc-demo-card--step2 {
+    background-color: #4BBECF;
+}
+
+#casanc-timeline .casanc-demo-card--step2 .casanc-head::after {
+    border-color: #4BBECF;
+}
+
+#casanc-timeline .casanc-demo-card--step3 {
+    background-color: #ED6A53;
+}
+
+#casanc-timeline .casanc-demo-card--step3 .casanc-head::after {
+    border-color: #ED6A53;
+}
+
+#casanc-timeline .casanc-demo-card--step4 {
+    background-color: #FBB034;
+}
+
+#casanc-timeline .casanc-demo-card--step4 .casanc-head::after {
+    border-color: #FBB034;
+}
+
+#casanc-timeline .casanc-demo-card--step5 {
+    background-color: #662482;
+}
+
+#casanc-timeline .casanc-demo-card--step5 .casanc-head::after {
+    border-color: #662482;
+}
