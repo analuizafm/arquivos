@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons+Outlined');
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+
+/*==================================
+        padroes gerais
+==================================*/
+
+.casa-tachado {
+    background: linear-gradient(to top, #FFD590 50%, transparent 50%);
+    color: #404040;
+}
+
+.casa-espaçamento{
+    margin: 32px 0;
+}
+
+/* secao */
+
+.casa-secao {
+    margin: 32px 0;
+    box-shadow: 2px 3px 20px 1px #e8e8e8;
+    background-color: #ffffff;
+    padding: 20px 24px;
+}
+
+.casa-secao p {
+    margin: 12px 0;
+}
+
+.casa-secao p:last-child {
+    margin-bottom: 0;
+}
+
+.casa-secao p:first-child {
+    margin-top: 0;
+}
+
+.casa-secao-titulosofa {
+    color: #ed6a53;
+    font-weight: 600;
+}
+
+.casa-secao-icone {
+    font-size: 20px;
+    display: inline-flex;
+    vertical-align: middle;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+
+/* citacao */
+
+.casa-citacao {
+    margin: 32px 0;
+    padding: 0 0 0 24px;
+    border-left: solid 5px #662482;
+}
+
+.casa-citacao p {
+    margin: 12px 0;
+}
+
+.casa-citacao p:last-child {
+    margin-bottom: 0;
+}
+
+.casa-citacao-fonte {
+    color: #662482;
+    font-style: italic;
+    text-align: right;
+}
+
+/* box destaque cinza */
+
+.casa-destaquecinza{
+    margin: 20px 0px; 
+    background-color: #f8f8f8; 
+    
+    padding: 5px 24px;
+}
+
+.cinza-roxo1{
+    border-top: 2px solid #662482; 
+}
+
+    .cinza-roxo1{
+    border-top: 2px solid #662482; 
+}
+    
+      .cinza-roxo2{
+    border-top: 2px solid #4a2771; 
+}
+    
+      .cinza-azul{
+    border-top: 2px solid #4BBECF; 
+}
+    
+      .cinza-laranja{
+    border-top: 2px solid #ED6A53; 
+}
+    
+      .cinza-amarelo{
+    border-top: 2px solid #FBB034; 
+}
+
+/* box destaque laranja */
+
+.casa-box-destaque {
+    margin: 32px 0;
+    background-color: #ed6a53;
+    padding: 20px 24px;
+    border-left: solid 10px #DF523A;
+    color: #ffffff;
+}
+
+.casa-box-destaque p {
+    margin: 6px 0;
+}
+
+.casa-box-destaque p:last-child {
+    margin-bottom: 0;
+}
+
+.casa-box-destaque p:first-child {
+    margin-top: 0;
+}
+
+
+
+ul,
+ol {
+    padding: 0;
+    margin: 0 0 0px 25px;
+}
+
+.casa-destaque-numeral {
+    border: 1px solid #404040;
+    padding: 20px 24px;
+    margin: 32px 0;
+}
+
+.casa-destaque-numeral ol li {
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;
+}
+
+.casa-destaque-numeral ol li:before {
+    color: #ED6A53;
+    content: counter(list) ".";
+    left: -32px;
+    position: absolute;
+    text-align: right;
+    width: 26px;
+    font-weight: 600;
+}
+
+
+/*==================================
+        padroes específicos 
+==================================*/
+
+/* ------------------ curso Acolhida Marista Brasil --------------- */
+
+/* timeline com fotos */
+
+.container-fluid .row {
+  padding: 0;
+}
+.container-fluid .row:nth-child(even) {
+  background: #F1F4F5;
+}
+
+/* casa-timeline*/
+
+/*-- GENERAL STYLES*/
+.casa-timeline {
+  line-height: 1.4em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.casa-timeline h1, .casa-timeline h2, .casa-timeline h3, .casa-timeline h4, .casa-timeline h5, .casa-timeline h6 {
+  line-height: inherit;
+}
+
+/*----- casa-timeline ITEM -----*/
+.casa-timeline-item {
+  padding-left: 40px;
+  position: relative;
+}
+.casa-timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+/*----- casa-timeline INFO -----*/
+.casa-timeline-info {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin: 0 0 0.5em 0;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+/*----- casa-timeline MARKER -----*/
+.casa-timeline-marker {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 15px;
+}
+.casa-timeline-marker:before {
+  background: #662482;
+  border: 3px solid transparent;
+  border-radius: 100%;
+  content: "";
+  display: block;
+  height: 15px;
+  position: absolute;
+  top: 4px;
+  left: 0;
+  width: 15px;
+  transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+.casa-timeline-marker:after {
+  content: "";
+  width: 3px;
+  background: #CCD5DB;
+  display: block;
+  position: absolute;
+  top: 24px;
+  bottom: 0;
+  left: 6px;
+}
+.casa-timeline-item:last-child .casa-timeline-marker:after {
+  content: none;
+}
+
+.casa-timeline-item:not(.casa-period):hover .casa-timeline-marker:before {
+  background: transparent;
+  border: 3px solid #662482;
+}
+
+/*----- casa-timeline CONTENT -----*/
+.casa-timeline-content {
+  padding-bottom: 10px;
+}
+.casa-timeline-content p:last-child {
+  margin-bottom: 0;
+}
+
+/*----- casa-timeline casa-period -----*/
+.casa-period {
+  padding: 0;
+}
+.casa-period .casa-timeline-info {
+  display: none;
+}
+.casa-period .casa-timeline-marker:before {
+  background: transparent;
+  content: "";
+  width: 15px;
+  height: auto;
+  border: none;
+  border-radius: 0;
+  top: 0;
+  bottom: 30px;
+  position: absolute;
+  border-top: 3px solid #CCD5DB;
+
+}
+.casa-period .casa-timeline-marker:after {
+  content: "";
+  height: 32px;
+  top: auto;
+}
+.casa-period .casa-timeline-content {
+  padding: 40px 0 70px;
+}
+.casa-period .casa-timeline-title {
+  margin: 0;
+}
+
+/* MOD: casa-timeline CENTERED*/
+@media (min-width: 992px) {
+  .casa-timeline-centered,
+.casa-timeline-centered .casa-timeline-item,
+.casa-timeline-centered .casa-timeline-info,
+.casa-timeline-centered .casa-timeline-marker,
+.casa-timeline-centered .casa-timeline-content {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  .casa-timeline-centered .casa-timeline-item {
+    padding-bottom: 20px;
+    overflow: hidden;
+  }
+  .casa-timeline-centered .casa-timeline-marker {
+    position: absolute;
+    left: 50%;
+    margin-left: -7.5px;
+  }
+  .casa-timeline-centered .casa-timeline-info,
+.casa-timeline-centered .casa-timeline-content {
+    width: 50%;
+  }
+  .casa-timeline-centered > .casa-timeline-item:nth-child(odd) .casa-timeline-info {
+    float: left;
+    text-align: right;
+    padding-right: 30px;
+  }
+  .casa-timeline-centered > .casa-timeline-item:nth-child(odd) .casa-timeline-content {
+    float: right;
+    text-align: left;
+    padding-left: 30px;
+  }
+  .casa-timeline-centered > .casa-timeline-item:nth-child(even) .casa-timeline-info {
+    float: right;
+    text-align: left;
+    padding-left: 30px;
+  }
+  .casa-timeline-centered > .casa-timeline-item:nth-child(even) .casa-timeline-content {
+    float: left;
+    text-align: right;
+    padding-right: 30px;
+  }
+  .casa-timeline-centered > .casa-timeline-item.casa-period .casa-timeline-content {
+    float: none;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .casa-timeline-centered .casa-timeline-item.casa-period {
+    padding: 10px 0 0px;
+  }
+  .casa-timeline-centered .casa-period .casa-timeline-marker:after {
+    height: 30px;
+    bottom: 0;
+    top: auto;
+  }
+  .casa-timeline-centered .casa-period .casa-timeline-title {
+    left: auto;
+  }
+}
+
+/*-- MOD: MARKER OUTLINE -*/
+.marker-outline .casa-timeline-marker:before {
+  background: transparent;
+  border-color: #662482;
+}
+.marker-outline .casa-timeline-item:hover .casa-timeline-marker:before {
+  background: #662482;
+}
