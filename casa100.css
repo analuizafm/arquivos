@@ -1,0 +1,1607 @@
+/*==================================
+        padroes gerais
+==================================*/
+casa-img {
+    width: 100%;
+}
+
+.casa-tachado {
+    background-color: #ffd590;
+}
+
+.casa-espacamento {
+    margin: 32px 0;
+}
+
+.casa-espacamento-imagem {
+    margin: 32px auto;
+}
+
+.casa-espacamento-imagem-24 {
+    margin: 24px auto;
+}
+
+.casa-seta {
+    font-size: 20px;
+    display: inline-flex;
+    vertical-align: middle;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    color: #ed6a53;
+}
+
+.casa-separador {
+    margin: 24px 0;
+    border-top: 1px solid #E1E1E1;
+}
+
+.casa-titulo-5 {
+    font-size: 1.12rem;
+    font-weight: 500;
+    margin-top: 32px;  
+    margin-bottom: 16px;
+    color: #212121;
+}
+
+.casa-distancia-item li{
+    padding-left: 6px;
+}
+
+.casa-listanumerada li {
+   padding: 0 0 3px 6px;
+}
+
+/* tamanho de imagens */
+
+.casa-imagem-100 {
+    max-width: 100px;
+}
+
+.casa-imagem-150 {
+    max-width: 100px;
+}
+
+.casa-imagem-200 {
+    max-width: 200px;
+}
+
+.casa-imagem-250 {
+    max-width: 250px;
+}
+
+.casa-imagem-300 {
+    max-width: 300px;
+}
+
+.casa-imagem-350 {
+    max-width: 350px;
+}
+
+.casa-imagem-400 {
+    max-width: 400px;
+}
+
+.casa-imagem-450 {
+    max-width: 450px;
+}
+
+.casa-imagem-500 {
+    max-width: 500px;
+}
+
+.casa-imagem-550 {
+    max-width: 550px;
+}
+
+.casa-imagem-600 {
+    max-width: 600px;
+}
+
+.casa-imagem-650 {
+    max-width: 650px;
+}
+
+.casa-imagem-700 {
+    max-width: 700px;
+}
+
+.casa-imagem-750 {
+    max-width: 750px;
+}
+
+.casa-imagem-800 {
+    max-width: 800px;
+}
+
+.casa-imagem-850 {
+    max-width: 850px;
+}
+
+.casa-imagem-900 {
+    max-width: 900px;
+}
+
+.casa-imagem-950 {
+    max-width: 950px;
+}
+
+.casa-imagem-1000 {
+    max-width: 1000px;
+}
+
+.casa-imagem-1100 {
+    max-width: 1100px;
+}
+
+.casa-imagem-1200 {
+    max-width: 1200px;
+}
+
+.casa-imagem-fonte {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+.casa-imagem-titulo {
+    text-align: center;
+    font-weight: 600;
+}
+
+.casa-imagem-legenda {
+    margin-top: 12px;
+    color: #7E8C8D;
+    font-style: italic;
+}
+
+
+/* a */
+
+
+.casa-hiperlink a,
+.casa-secao a,
+.casa-destaquecinza a,
+.accordion-body a{
+    color: #4BBECF;
+   
+}
+
+
+.accordion-button:hover {
+    z-index: 2;
+    background-color: #ebebec;
+}
+
+.casa-dgg-hiperlink a {
+    color: #359CAB;
+}
+
+.casa-flex-texto ul:not([class]) li a:after,
+.casa-hiperlink a:after,
+.accordion-body a:after,
+ol:not([class]) li a:after,
+.casa-secao a:after,
+.casa-destaquecinza a:after,
+.casa-hiperlink ul:not([class]) li a:after,
+.casa-secao ul:not([class]) li a:after,
+.casa-destaquecinza ul:not([class]) li a:after{
+    background-color: #4BBECF;
+}
+
+/* glossário */
+
+.casa-pin,
+.casa-pin-linha {
+    font-size: 15px;
+    display: inline-flex;
+    vertical-align: middle;
+    color: #662482;
+}
+
+.casa-glossario-fonte {
+    font-weight: 600;
+    color: #662482;
+}
+
+.casa-pin-linha {
+
+    padding: 0 3px 3px 5px;
+}
+
+/* orientação de módulo */
+
+.casa-orientacao1 {
+    margin-bottom: 6px;
+    color: #4a2771;
+    text-transform: uppercase;
+}
+
+.casa-orientacao2 {
+    font-size: 32pt;
+    line-height: 52px;
+    margin-top: 6px;
+    color: #4a2771;
+    font-weight: 600;
+}
+
+/* secao e box destaque laranja */
+
+.casa-secao {
+    margin: 32px 0;
+    box-shadow: 2px 3px 20px 1px #e8e8e8;
+    background-color: #ffffff;
+    padding: 20px 24px;
+}
+
+.casa-box-destaque {
+    margin: 32px 0;
+    background-color: #ed6a53;
+    padding: 20px 24px;
+    border-left: solid 10px #DF523A;
+    color: #ffffff;
+}
+
+.casa-box-destaque-curso {
+    margin: 32px 0;
+    background-color: #F5F5F5;
+    padding: 20px 24px;
+    border-left: solid 10px #e9e9e9;    
+}
+
+.casa-box-destaque-cinza {
+    margin: 24px 0;
+    background-color: #F5F5F5;
+    padding: 12px 16px;
+    border-left: solid 10px #e9e9e9;
+    font-size: 0.9rem;
+    
+}
+
+.casa-glo,
+.casa-secao p,
+.casa-box-destaque p,
+.casa-box-destaque-cinza p,
+.casa-box-destaque-curso p,
+.casa-bloco-numeros p {
+    margin: 12px 0;
+}
+
+.casa-glo p,
+.casa-bloco-numeros p {
+    line-height: 1.5;
+}
+
+
+.casa-glo p:last-child,
+.casa-secao p:last-child,
+.casa-box-destaque p:last-child,
+.casa-box-destaque-cinza p:last-child,
+.casa-box-destaque-curso p:last-child,
+.casa-bloco-numeros p:last-child,
+.casa-jornal p:last-child,
+.accordion-body p:last-child {
+    margin-bottom: 0;
+}
+
+.casa-glo p:first-child,
+.casa-secao p:first-child,
+.casa-box-destaque p:first-child, 
+.casa-box-destaque-cinza p:first-child, 
+.casa-box-destaque-curso p:first-child, 
+.casa-jornal p:first-child, 
+.casa-bloco-numeros p:first-child {
+    margin-top: 0;
+}
+
+.casa-secao-icone {
+    font-size: 20px;
+    display: inline-flex;
+    vertical-align: middle;
+    padding-right: 5px;
+    padding-bottom: 3px;
+}
+
+
+
+/* titulos coloridos */
+
+/* --------- primárias ---------*/
+.casa-laranja {
+    color: #ed6a53;
+    font-weight: 600;
+}
+
+.casa-amarelo {
+    color: #FBB034;
+    font-weight: 600;
+}
+
+.casa-azul {
+    color: #4BBECF;
+    font-weight: 600;
+}
+
+.casa-roxo1 {
+    color: #662482;
+    font-weight: 600;
+}
+
+.casa-roxo2 {
+    color: #4a2771;
+    font-weight: 600;
+}
+
+/* --------- secundárias ---------*/
+
+.casa-rosa {
+    color: #fd7b7b;
+    font-weight: 600;
+}
+
+.casa-laranja2 {
+    color: #fb8834;
+    font-weight: 600;
+}
+
+.casa-vermelho {
+    color: #c64b3e;
+    font-weight: 600;
+}
+
+.casa-roxo3 {
+    color: #2e196d;
+    font-weight: 600;
+}
+
+.casa-azul2 {
+    color: #2888a5;
+    font-weight: 600;
+}
+
+
+/* citacao */
+
+.casa-citacao {
+    margin: 32px 0;
+    padding: 0 0 0 24px;
+    border-left: solid 5px #662482;
+}
+
+.casa-citacao p:last-child {
+    margin-bottom: 0;
+}
+
+.casa-citacao-fonte {
+    color: #662482;
+    font-style: italic;
+    text-align: right;
+}
+
+
+
+/* box destaque cinza */
+
+.casa-destaquecinza {
+    margin: 20px 0px;
+    background-color: #f8f8f8;
+    padding: 20px 24px;
+}
+
+.casa-destaquecinza p:last-child {
+    margin-bottom: 0;
+}
+
+.casa-cinza-roxo1 {
+    border-top: 2px solid #662482;
+}
+
+.casa-cinza-roxo2 {
+    border-top: 2px solid #4a2771;
+}
+
+.casa-cinza-roxo3 {
+    border-top: 2px solid #2e196d;
+}
+
+.casa-cinza-azul {
+    border-top: 2px solid #4BBECF;
+}
+
+.casa-cinza-azul2 {
+    border-top: 2px solid #2888a5;
+}
+
+
+.casa-cinza-laranja {
+    border-top: 2px solid #ED6A53;
+}
+
+.casa-cinza-amarelo {
+    border-top: 2px solid #FBB034;
+}
+
+.casa-cinza-amarelo1 {
+    border-top: 2px solid #FBB034;
+}
+
+.casa-cinza-laranja2 {
+    border-top: 2px solid #fb8834;
+}
+
+.casa-cinza-rosa {
+    border-top: 2px solid #fd7b7b;
+}
+
+.casa-cinza-vermelho {
+    border-top: 2px solid #c64b3e;
+}
+
+/* box cinza com numeral roxo */
+
+.casa-bloco-numeros {
+    margin: 10px 0;
+    padding: 15px 24px;
+    background-color: #f8f8f8;
+}
+
+.casa-glo {
+    padding: 16px 24px;
+    border: 1px solid #414141;
+}
+
+.casa-bloco-numerosX {
+    margin: 0;
+    text-align: left;
+    color: #662482;
+    font-weight: 800;
+}
+
+.casa-bloco-numeros-esquerda {
+    width: 2%;
+}
+
+.casa-bloco-numeros-direita {
+    width: 98%;
+}
+
+.casa-bloco-numeros-2 {
+    width: 2%;
+}
+
+.casa-bloco-numeros-3 {
+    width: 3%;
+}
+
+.casa-bloco-numeros-4 {
+    width: 4%;
+}
+
+.casa-bloco-numeros-5 {
+    width: 5%;
+}
+
+.casa-bloco-numeros-6 {
+    width: 6%;
+}
+
+.casa-bloco-numeros-7 {
+    width: 7%;
+}
+
+.casa-bloco-numeros-8 {
+    width: 8%;
+}
+
+.casa-bloco-numeros-9 {
+    width: 9%;
+}
+
+.casa-bloco-numeros-10 {
+    width: 10%;
+}
+
+.casa-bloco-numeros-98 {
+    width: 98%;
+}
+
+.casa-bloco-numeros-97 {
+    width: 97%;
+}
+
+.casa-bloco-numeros-96 {
+    width: 96%;
+}
+
+.casa-bloco-numeros-95 {
+    width: 95%;
+}
+
+.casa-bloco-numeros-94 {
+    width: 94%;
+}
+
+.casa-bloco-numeros-93 {
+    width: 93%;
+}
+
+.casa-bloco-numeros-92 {
+    width: 92%;
+}
+
+.casa-bloco-numeros-91 {
+    width: 91%;
+}
+
+.casa-bloco-numeros-90 {
+    width: 90%;
+}
+
+/* box cinza flex */
+
+* {
+    box-sizing: border-box;
+}
+
+.casa-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.casa-flex-container-colorido {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.casa-flex-center {
+    align-items: center;
+}
+
+.casa-flex-start {
+    align-items: flex-start;
+}
+
+.casa-flex-item-left {
+    flex: 20%;
+}
+
+.casa-flex-item-right {
+    flex: 80%;
+}
+
+.casa-flex-item {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 18px;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+
+    .casa-flex-item-right,
+    .casa-flex-item-left,
+    .casa-flex-item-center {
+        flex: 100%;
+    }
+}
+
+.casa-flex-cinza {
+    margin: 20px 0px;
+    background-color: #f8f8f8;
+    padding: 20px 6px;
+}
+
+.casa-flex-cinzanovo {
+    margin: 20px 0px;
+    background-color: #f8f8f8;
+    padding: 20px 24px;
+}
+
+
+/* box colorido */
+
+.casa-flex-colorido {
+    border: 2px solid;
+    border-radius: 15px;
+    margin: 15px 0px;
+    padding: 20px 6px;
+}
+
+/* ------------------ curso Cultura digital  --------------- */
+    
+.casa-flex-colorido-redondo{
+    border: 2px solid;
+    border-radius: 15px;
+    margin: 15px 0px;
+    overflow: hidden;
+    }
+
+.casa-flex-colorido-redondo-texto{
+    padding: 24px 20px;
+}
+
+/* ------------------ curso Cultura digital  --------------- */
+
+.casa-flex-amarelo1 {
+    border-color: #FBB034;
+}
+
+.casa-flex-amarelo1 {
+    border-color: #FBB034;
+}
+
+.casa-flex-laranja2 {
+    border-color: #fb8834;
+}
+
+.casa-flex-rosa {
+    border-color: #fd7b7b;
+}
+
+.casa-flex-laranja {
+    border-color: #ed6a53;
+}
+
+.casa-flex-vermelho {
+    border-color: #c64b3e;
+}
+
+.casa-flex-roxo1 {
+    border-color: #662482;
+}
+
+.casa-flex-roxo2 {
+    border-color: #4a2771;
+}
+
+.casa-flex-roxo3 {
+    border-color: #2e196d;
+}
+
+.casa-flex-azul2 {
+    border-color: #2888a5;
+}
+
+.casa-flex-azul {
+    border-color: #4BBECF;
+}
+
+/*
+
+.casa-destaque-numeral {
+    border: 1px solid #404040;
+    padding: 20px 24px;
+    margin: 32px 0;
+}
+
+.casa-destaque-numeral ol li {
+    counter-increment: list;
+    list-style-type: none;
+    position: relative;
+}
+
+.casa-destaque-numeral ol li:before {
+    color: #ED6A53;
+    content: counter(list) ".";
+    left: -32px;
+    position: absolute;
+    text-align: right;
+    width: 26px;
+    font-weight: 600;
+}
+
+*/
+
+/* transcrição accordion */
+
+.casa-accordion-item:last-of-type .casa-accordion-button.collapsed {
+    background-color: #f5f5f5;
+}
+
+.casa-accordion-body {
+    background-color: #f5f5f5;
+}
+
+/* cor do titulo da sanfona - acrescentar classe casa-accordion*/
+
+.casa-accordion .accordion-button:not(.collapsed) {
+    /* color: #fff;
+    background-color: #4BBECF; */
+}
+
+/* flex duas colunas com duas imagens/ texto e imagem */
+* {
+    box-sizing: border-box;
+}
+
+.imagem2-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.imagem2-flex-item-left {
+    flex: 50%;
+}
+
+.imagem2-flex-item-right {
+    flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+
+    .imagem2-flex-item-right,
+    .imagem2-flex-item-left {
+        flex: 100%;
+    }
+}
+
+.imagem2-flex-titulo {
+    margin: 0 auto;
+    padding: 0 10px;
+    font-weight: 600;
+}
+
+.imagem2-flex-conteudo {
+    margin: 32px -10px 32px -10px;
+}
+
+/* flex duas colunas com duas imagens/ texto e imagem 
+*/
+
+.casa-imagem-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.casa-imagem-flex-item-left,
+.casa-imagem-flex-item-right {
+    flex: 50%;
+}
+
+.casa-imagem-conteudo {
+    margin: 17px -10px 12px -10px;
+}
+
+.casa-imagem-item {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 600px) {
+
+    .casa-imagem-flex-item-right,
+    .casa-imagem-flex-item-left {
+        flex: 100%;
+    }
+
+}
+
+
+/* blocos responsivos */
+
+
+@media (max-width: 500px) {
+
+.casa-secao,
+.casa-box-destaque,
+.casa-box-destaque-cinza, 
+.casa-box-destaque-curso,
+.casa-bloco-numeros,
+.casa-jornal,
+.casa-glo{
+        padding:10px 12px;
+
+    }
+    
+    
+.casa-bloco-numeros-2,
+.casa-bloco-numeros-3,
+.casa-bloco-numeros-4 {
+        padding-right: 10px;
+    }
+
+
+}
+
+/* flex duas colunas com duas imagens/ texto e imagem CORRETO 
+*/
+
+.casa-flex-conteudo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.casa-flex-50 {
+    flex: 50%;
+}
+
+.casa-flex-55 {
+    flex: 55%;
+}
+
+.casa-flex-33 {
+    flex: 33%;
+}
+
+.casa-flex-35 {
+    flex: 35%;
+}
+
+.casa-flex-40 {
+    flex: 40%;
+}
+
+.casa-flex-45 {
+    flex: 45%;
+}
+
+.casa-flex-60 {
+    flex: 60%;
+}
+
+.casa-flex-65 {
+    flex: 65%;
+}
+
+.casa-flex-70 {
+    flex: 70%;
+}
+
+.casa-flex-30 {
+    flex: 30%;
+}
+
+.casa-flex-25 {
+    flex: 25%;
+}
+
+.casa-flex-direita {
+    padding-right: 12px;
+}
+
+.casa-flex-esquerda {
+    padding-left: 12px;
+}
+
+.casa-flex-centro {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.casa-flex-direita,
+.casa-flex-esquerda,
+.casa-flex-centro {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.casa-flex-texto p:last-child {
+    margin-bottom: 0;
+}
+
+.casa-imagem-legenda {
+    margin-top: 12px;
+    color: #7E8C8D;
+    font-style: italic;
+}
+
+.casa-espacamento-flex {
+    margin: 26px auto;
+}
+
+.casa-espacamento-flex-legenda {
+    margin: 26px auto 10px auto;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 600px) {
+
+    .casa-flex-25,
+    .casa-flex-30,
+    .casa-flex-33,
+    .casa-flex-35,
+    .casa-flex-40,
+    .casa-flex-45,
+    .casa-flex-50,
+    .casa-flex-55,
+    .casa-flex-60,
+    .casa-flex-65,
+    .casa-flex-70 {
+        flex: 100%;
+    }
+
+    .casa-flex-esquerda,
+    .casa-flex-direita,
+    .casa-flex-centro {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .casa-flex-esquerda p:last-child,
+    .casa-flex-center p:last-child,
+    .casa-flex-direita p:last-child {
+        margin-bottom: 16px;
+    }
+
+}
+
+
+/* elemento no fim da página e elementos */
+
+.casa-fimdepagina {
+    margin-bottom: 16px;
+}
+
+.casa-marginbullet {
+    margin-bottom: 0;
+}
+
+.casa-paddingbullet {
+    padding-left:2rem;
+}
+
+.casa-rodapemenor {
+    margin-bottom: 16px;
+}
+
+.casa-margin0 {
+    margin-bottom: 0;
+}
+
+/*==================================
+        padroes específicos 
+==================================*/
+
+/* ------------------ curso Acolhida Marista Brasil --------------- */
+
+/* timeline com fotos */
+
+.container-fluid .row {
+    padding: 0;
+}
+
+.container-fluid .row:nth-child(even) {
+    background: #F1F4F5;
+}
+
+/* casa-timeline*/
+
+/*-- GENERAL STYLES*/
+.casa-timeline {
+    line-height: 1.4em;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.casa-timeline h1,
+.casa-timeline h2,
+.casa-timeline h3,
+.casa-timeline h4,
+.casa-timeline h5,
+.casa-timeline h6 {
+    line-height: inherit;
+}
+
+/*----- casa-timeline ITEM -----*/
+.casa-timeline-item {
+    padding-left: 40px;
+    position: relative;
+}
+
+.casa-timeline-item:last-child {
+    padding-bottom: 0;
+}
+
+/*----- casa-timeline INFO -----*/
+.casa-timeline-info {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 0 0 0.5em 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+/*----- casa-timeline MARKER -----*/
+.casa-timeline-marker {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15px;
+}
+
+.casa-timeline-marker:before {
+    background: #662482;
+    border: 3px solid transparent;
+    border-radius: 100%;
+    content: "";
+    display: block;
+    height: 15px;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 15px;
+    transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.casa-timeline-marker:after {
+    content: "";
+    width: 3px;
+    background: #CCD5DB;
+    display: block;
+    position: absolute;
+    top: 24px;
+    bottom: 0;
+    left: 6px;
+}
+
+.casa-timeline-item:last-child .casa-timeline-marker:after {
+    content: none;
+}
+
+.casa-timeline-item:not(.casa-period):hover .casa-timeline-marker:before {
+    background: transparent;
+    border: 3px solid #662482;
+}
+
+/*----- casa-timeline CONTENT -----*/
+.casa-timeline-content {
+    padding-bottom: 10px;
+}
+
+.casa-timeline-content p:last-child {
+    margin-bottom: 0;
+}
+
+/*----- casa-timeline casa-period -----*/
+.casa-period {
+    padding: 0;
+}
+
+.casa-period .casa-timeline-info {
+    display: none;
+}
+
+.casa-period .casa-timeline-marker:before {
+    background: transparent;
+    content: "";
+    width: 15px;
+    height: auto;
+    border: none;
+    border-radius: 0;
+    top: 0;
+    bottom: 30px;
+    position: absolute;
+    border-top: 3px solid #CCD5DB;
+
+}
+
+.casa-period .casa-timeline-marker:after {
+    content: "";
+    height: 32px;
+    top: auto;
+}
+
+.casa-period .casa-timeline-content {
+    padding: 40px 0 70px;
+}
+
+.casa-period .casa-timeline-title {
+    margin: 0;
+}
+
+/* MOD: casa-timeline CENTERED*/
+@media (min-width: 992px) {
+
+    .casa-timeline-centered,
+    .casa-timeline-centered .casa-timeline-item,
+    .casa-timeline-centered .casa-timeline-info,
+    .casa-timeline-centered .casa-timeline-marker,
+    .casa-timeline-centered .casa-timeline-content {
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .casa-timeline-centered .casa-timeline-item {
+        padding-bottom: 20px;
+        overflow: hidden;
+    }
+
+    .casa-timeline-centered .casa-timeline-marker {
+        position: absolute;
+        left: 50%;
+        margin-left: -7.5px;
+    }
+
+    .casa-timeline-centered .casa-timeline-info,
+    .casa-timeline-centered .casa-timeline-content {
+        width: 50%;
+    }
+
+    .casa-timeline-centered > .casa-timeline-item:nth-child(odd) .casa-timeline-info {
+        float: left;
+        text-align: right;
+        padding-right: 30px;
+    }
+
+    .casa-timeline-centered > .casa-timeline-item:nth-child(odd) .casa-timeline-content {
+        float: right;
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .casa-timeline-centered > .casa-timeline-item:nth-child(even) .casa-timeline-info {
+        float: right;
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .casa-timeline-centered > .casa-timeline-item:nth-child(even) .casa-timeline-content {
+        float: left;
+        text-align: right;
+        padding-right: 30px;
+    }
+
+    .casa-timeline-centered > .casa-timeline-item.casa-period .casa-timeline-content {
+        float: none;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .casa-timeline-centered .casa-timeline-item.casa-period {
+        padding: 10px 0 0px;
+    }
+
+    .casa-timeline-centered .casa-period .casa-timeline-marker:after {
+        height: 30px;
+        bottom: 0;
+        top: auto;
+    }
+
+    .casa-timeline-centered .casa-period .casa-timeline-title {
+        left: auto;
+    }
+}
+
+/*-- MOD: MARKER OUTLINE -*/
+.marker-outline .casa-timeline-marker:before {
+    background: transparent;
+    border-color: #662482;
+}
+
+.marker-outline .casa-timeline-item:hover .casa-timeline-marker:before {
+    background: #662482;
+}
+
+
+/* ------------------ curso Alfabetização --------------- */
+
+/* slider 1 campos de experiências */
+
+.casa-alfa1-slideshow-container {
+    position: relative;
+    background: #F7F7F7;
+}
+
+.casa-alfa1-slideshow-container2 {
+    position: relative;
+    background: #F7F7F7;
+}
+
+/* Slides */
+.casa-alfa1-mySlides,
+.casa-alfa1-mySlides2 {
+    display: none;
+    padding: 20px 40px 10px 40px;
+
+}
+
+/* casa-alfa1-next & casa-alfa1-previous buttons */
+.casa-alfa1-prev,
+.casa-alfa1-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -30px;
+    padding: 5px 10px;
+    color: #888;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "casa-alfa1-next button" to the right */
+.casa-alfa1-next {
+    position: absolute;
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.casa-alfa1-prev:hover,
+.casa-alfa1-next:hover {
+    background-color: #662482;
+    color: white;
+}
+
+/* The casa-alfa1-dot/bullet/indicator container */
+.casa-alfa1-dot-container {
+    text-align: center;
+    padding: 10px;
+    background: #F7F7F7;
+}
+
+/* The casa-alfa1-dots/bullets/indicators */
+.casa-alfa1-dot,
+.casa-alfa1-dot2 {
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the casa-alfa1-active casa-alfa1-dot/circle */
+.casa-alfa1-active,
+.casa-alfa1-dot:hover,
+.casa-alfa1-dot1:hover,
+.casa-alfa1-dot2:hover {
+    background-color: #717171;
+}
+
+.titulo {
+    color: #662482;
+    padding: 15px 0 5px 0;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* flex */
+
+* {
+    box-sizing: border-box;
+}
+
+.casa-alfa1-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.casa-alfa1-flex-item-left {
+
+    flex: 50%;
+}
+
+.casa-alfa1-flex-item-right {
+
+    flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media (max-width: 800px) {
+
+    .casa-alfa1-flex-item-right,
+    .casa-alfa1-flex-item-left {
+        flex: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .casa-alfa1-mySlides,
+    .casa-alfa1-mySlides2 {
+        display: none;
+        padding: 20px 20px 10px 20px;
+
+    }
+
+}
+
+/* ------------------ curso Linguagem matemática na EI --------------- */
+
+/* transcrição de áudio */
+
+.casa-transcricao-accordion {
+    background-color: #F7F7F7;
+    color: #7E8C8D;
+    cursor: pointer;
+    padding: 20px 24px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.casa-transcricao-active {
+    background-color: #eee;
+}
+
+.casa-transcricao-accordion:hover {
+    background-color: #eee;
+}
+
+.casa-transcricao-accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.casa-transcricao-active:after {
+    content: "\2212";
+}
+
+.casa-transcricao-panel {
+    padding: 0px;
+    background-color: #F7F7F7;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.fonte-casa-transcricao-panel {
+    color: #7E8C8D;
+}
+
+.casa-transcricao-panel-conteudo {
+    padding: 20px 24px;
+}
+    
+/* ------------------ curso Matemática em foco EFAI 1 e 2 anos  --------------- */
+
+ .casa-fundo-papel{
+        background-image: url(https://iili.io/JM7ccwQ.md.jpg) ;
+    background-size: auto auto;
+    background-repeat: repeat;
+
+    }
+
+/* ------------------ curso Matemática em foco EFAI 3 a 5 anos  --------------- */
+
+/* fracoes */
+
+mfrac {
+   font-size: 1.2rem;
+}
+
+.casa-matematica {
+    overflow: hidden;
+}
+
+.casa-matematica-direita {
+    padding-right: 3px;
+}
+
+.casa-matematica-esquerda {
+    padding-left: 3px;
+}
+
+.casa-matematica-esquerda-direita {
+    padding-left: 3px;
+     padding-right: 3px;
+}
+
+/* ------------------ curso Educação midiática  --------------- */
+
+.casa-jornal {
+    margin: 32px 0px;
+    background-color: #f8f8f8;
+    padding: 32px 48px;    
+}
+
+.casa-jornal-titulo {
+    font-family: serif;
+    font-size: 1.5rem;
+}
+
+.casa-jornal-gravata {
+    font-size: 1.1rem;
+    font-style: italic;
+}
+
+.casa-jornal-infos {
+        font-size: 0.7rem;
+}
+
+.casa-accordion-button:focus {
+    z-index: 3;
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+
+/* -------------------- cursos dgg ------------------------*/
+
+/* ------ cores de título dgg -------*/
+
+.casa-dgg-roxo1 {
+    color: #662482;
+    font-weight: 600;
+}
+
+.casa-dgg-roxo2 {
+    color: #4a2771;
+    font-weight: 600;
+}
+
+.casa-dgg-roxo3 {
+    color: #2e196d;
+    font-weight: 600;
+}
+
+.casa-dgg-azul1 {
+    color: #4BBECF;
+    font-weight: 600;
+}
+
+.casa-dgg-azul2 {
+    color: #2888a5;
+    font-weight: 600;
+}
+
+
+/* ------ cores de caixas cinza dgg -------*/
+
+.casa-dgg-cinza-roxo1 {
+    border-top: 2px solid #662482;
+}
+
+.casa-dgg-cinza-roxo2 {
+    border-top: 2px solid #4a2771;
+}
+
+.casa-dgg-cinza-roxo3 {
+    border-top: 2px solid #2e196d;
+}
+
+.casa-dgg-cinza-azul1 {
+    border-top: 2px solid #4BBECF;
+}
+
+.casa-dgg-cinza-azul2 {
+    border-top: 2px solid #2888a5;
+}
+
+
+/* ------ cores de caixas vazada dgg -------*/
+
+
+.casa-dgg-flex-roxo1 {
+    border-color: #662482;
+}
+
+.casa-dgg-flex-roxo2 {
+    border-color: #4a2771;
+}
+
+.casa-dgg-flex-roxo3 {
+    border-color: #2e196d;
+}
+
+.casa-dgg-flex-azul2 {
+    border-color: #2888a5;
+}
+
+.casa-dgg-flex-azul1 {
+    border-color: #4BBECF;
+}
+
+/*------------- ABP -----------------*/
+
+/* slider 1 campos de experiências */
+
+.casa-slideshow-container {
+    position: relative;
+    background: #F7F7F7;
+}
+
+.casa-slideshow-container2 {
+    position: relative;
+    background: #F7F7F7;
+}
+
+/* Slides */
+.casa-mySlides,
+.casa-mySlides2 {
+    display: block;
+    padding: 40px 70px 10px 70px;
+
+}
+
+/* casa-alfa1-next & casa-alfa1-previous buttons */
+.casa-prev,
+.casa-next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 5px 10px;
+    color: #888;
+    font-size: 20px;
+    user-select: none;
+}
+
+/* Position the "casa-alfa1-next button" to the right */
+.casa-next {
+    position: absolute;
+    right: 0;
+
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.casa-prev:hover,
+.casa-next:hover {
+    background-color: #662482;
+    color: white;
+}
+
+/* The casa-alfa1-dot/bullet/indicator container */
+.casa-dot-container {
+    text-align: center;
+    padding: 10px;
+    background: #F7F7F7;
+}
+
+/* The casa-alfa1-dots/bullets/indicators */
+.casa-dot,
+.casa-dot2 {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the casa-alfa1-active casa-alfa1-dot/circle */
+.casa-active,
+.casa-dot:hover,
+.casa-dot1:hover,
+.casa-dot2:hover {
+    background-color: #717171;
+}
+
+.casa-texto-maior {
+    font-size:1.3rem;
+}
+
+@media (max-width: 500px) {
+
+    .casa-mySlides,
+    .casa-mySlides2 {
+        display: block;
+        padding: 20px 40px 10px 40px;
+
+    }
+    .casa-texto-maior {
+    font-size:17px;
+
+}
+
+
+}
+
