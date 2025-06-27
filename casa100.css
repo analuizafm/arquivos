@@ -1602,6 +1602,16 @@ mfrac {
 
 }
 
+.casa-estudodecaso {
+    color: #949494;
+    padding-left: 20px;
+    border-left: 3px solid #C7CDD1;
+    margin: 24px 0;
+}
+
+.casa-estudodecaso p {
+    margin-bottom: 8px;
+}
 
 }
 
