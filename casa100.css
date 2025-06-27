@@ -38,17 +38,17 @@ casa-img {
 .casa-titulo-5 {
     font-size: 1.12rem;
     font-weight: 500;
-    margin-top: 32px;  
+    margin-top: 32px;
     margin-bottom: 16px;
     color: #212121;
 }
 
-.casa-distancia-item li{
+.casa-distancia-item li {
     padding-left: 6px;
 }
 
 .casa-listanumerada li {
-   padding: 0 0 3px 6px;
+    padding: 0 0 3px 6px;
 }
 
 /* tamanho de imagens */
@@ -161,9 +161,9 @@ casa-img {
 .casa-hiperlink a,
 .casa-secao a,
 .casa-destaquecinza a,
-.accordion-body a{
+.accordion-body a {
     color: #4BBECF;
-   
+
 }
 
 
@@ -184,7 +184,7 @@ ol:not([class]) li a:after,
 .casa-destaquecinza a:after,
 .casa-hiperlink ul:not([class]) li a:after,
 .casa-secao ul:not([class]) li a:after,
-.casa-destaquecinza ul:not([class]) li a:after{
+.casa-destaquecinza ul:not([class]) li a:after {
     background-color: #4BBECF;
 }
 
@@ -245,7 +245,7 @@ ol:not([class]) li a:after,
     margin: 32px 0;
     background-color: #F5F5F5;
     padding: 20px 24px;
-    border-left: solid 10px #e9e9e9;    
+    border-left: solid 10px #e9e9e9;
 }
 
 .casa-box-destaque-cinza {
@@ -254,7 +254,7 @@ ol:not([class]) li a:after,
     padding: 12px 16px;
     border-left: solid 10px #e9e9e9;
     font-size: 0.9rem;
-    
+
 }
 
 .casa-glo,
@@ -285,10 +285,10 @@ ol:not([class]) li a:after,
 
 .casa-glo p:first-child,
 .casa-secao p:first-child,
-.casa-box-destaque p:first-child, 
-.casa-box-destaque-cinza p:first-child, 
-.casa-box-destaque-curso p:first-child, 
-.casa-jornal p:first-child, 
+.casa-box-destaque p:first-child,
+.casa-box-destaque-cinza p:first-child,
+.casa-box-destaque-curso p:first-child,
+.casa-jornal p:first-child,
 .casa-bloco-numeros p:first-child {
     margin-top: 0;
 }
@@ -609,15 +609,15 @@ ol:not([class]) li a:after,
 }
 
 /* ------------------ curso Cultura digital  --------------- */
-    
-.casa-flex-colorido-redondo{
+
+.casa-flex-colorido-redondo {
     border: 2px solid;
     border-radius: 15px;
     margin: 15px 0px;
     overflow: hidden;
-    }
+}
 
-.casa-flex-colorido-redondo-texto{
+.casa-flex-colorido-redondo-texto {
     padding: 24px 20px;
 }
 
@@ -788,21 +788,21 @@ ol:not([class]) li a:after,
 
 @media (max-width: 500px) {
 
-.casa-secao,
-.casa-box-destaque,
-.casa-box-destaque-cinza, 
-.casa-box-destaque-curso,
-.casa-bloco-numeros,
-.casa-jornal,
-.casa-glo{
-        padding:10px 12px;
+    .casa-secao,
+    .casa-box-destaque,
+    .casa-box-destaque-cinza,
+    .casa-box-destaque-curso,
+    .casa-bloco-numeros,
+    .casa-jornal,
+    .casa-glo {
+        padding: 10px 12px;
 
     }
-    
-    
-.casa-bloco-numeros-2,
-.casa-bloco-numeros-3,
-.casa-bloco-numeros-4 {
+
+
+    .casa-bloco-numeros-2,
+    .casa-bloco-numeros-3,
+    .casa-bloco-numeros-4 {
         padding-right: 10px;
     }
 
@@ -943,7 +943,7 @@ ol:not([class]) li a:after,
 }
 
 .casa-paddingbullet {
-    padding-left:2rem;
+    padding-left: 2rem;
 }
 
 .casa-rodapemenor {
@@ -1367,22 +1367,22 @@ ol:not([class]) li a:after,
 .casa-transcricao-panel-conteudo {
     padding: 20px 24px;
 }
-    
+
 /* ------------------ curso Matemática em foco EFAI 1 e 2 anos  --------------- */
 
- .casa-fundo-papel{
-        background-image: url(https://iili.io/JM7ccwQ.md.jpg) ;
+.casa-fundo-papel {
+    background-image: url(https://iili.io/JM7ccwQ.md.jpg);
     background-size: auto auto;
     background-repeat: repeat;
 
-    }
+}
 
 /* ------------------ curso Matemática em foco EFAI 3 a 5 anos  --------------- */
 
 /* fracoes */
 
 mfrac {
-   font-size: 1.2rem;
+    font-size: 1.2rem;
 }
 
 .casa-matematica {
@@ -1399,7 +1399,7 @@ mfrac {
 
 .casa-matematica-esquerda-direita {
     padding-left: 3px;
-     padding-right: 3px;
+    padding-right: 3px;
 }
 
 /* ------------------ curso Educação midiática  --------------- */
@@ -1407,7 +1407,7 @@ mfrac {
 .casa-jornal {
     margin: 32px 0px;
     background-color: #f8f8f8;
-    padding: 32px 48px;    
+    padding: 32px 48px;
 }
 
 .casa-jornal-titulo {
@@ -1421,7 +1421,7 @@ mfrac {
 }
 
 .casa-jornal-infos {
-        font-size: 0.7rem;
+    font-size: 0.7rem;
 }
 
 .casa-accordion-button:focus {
@@ -1586,7 +1586,7 @@ mfrac {
 }
 
 .casa-texto-maior {
-    font-size:1.3rem;
+    font-size: 1.3rem;
 }
 
 @media (max-width: 500px) {
@@ -1595,10 +1595,12 @@ mfrac {
     .casa-mySlides2 {
         display: block;
         padding: 20px 40px 10px 40px;
-
     }
+
     .casa-texto-maior {
-    font-size:17px;
+        font-size: 17px;
+    }
+
 
 }
 
@@ -1612,6 +1614,3 @@ mfrac {
 .casa-estudodecaso p {
     margin-bottom: 8px;
 }
-
-}
-
